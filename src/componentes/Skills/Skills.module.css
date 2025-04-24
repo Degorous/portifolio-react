@@ -1,0 +1,17 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 10%;
+  gap: 32px;
+}
+
+.skills__title {
+  font-size: 2rem;
+}
+
+.skills__list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
