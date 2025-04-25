@@ -1,0 +1,27 @@
+.projects__list__element {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: blue;
+}
+
+.projects__list__element p {
+  text-align: center;
+}
+
+.projects__list__element a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: violet;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.training__title {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.training__title img {
+  width: 350px;
+  height: 150px;
+  border-radius: 15px;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.training__title section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

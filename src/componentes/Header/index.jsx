@@ -10,7 +10,7 @@ function Header() {
         <MenuLista name="Hobbies" href="#hobbies" />
         <MenuLista name="Formação" href="#training" />
         <MenuLista name="Projetos" href="#projects" />
-        <MenuLista name="Contato" href="#contact" />
+        {/* <MenuLista name="Contato" href="#contact" /> */}
       </ul>
     </nav>
   )
