@@ -1,12 +1,32 @@
 .footer {
+  padding: 28px 144px;
+  background-color: var(--background__color__secundary);
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2% 10%;
-  background-color: blue;
+  max-width: 1440px;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer__links {
   display: flex;
   gap: 16px;
+}
+
+.footer__links a {
+  fill: white;
+}
+
+
+.footer__links a:hover {
+  fill: var(--cards);
+  border-radius: 100%;
 }

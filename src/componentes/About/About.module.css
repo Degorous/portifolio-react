@@ -1,10 +1,22 @@
 .about {
   display: flex;
   flex-direction: column;
-  padding: 2% 10%;
   gap: 32px;
 }
 
 .about__title {
   font-size: 2rem;
+}
+
+.about__info {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.about__info img {
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  border: 1px solid var(--cards);
 }

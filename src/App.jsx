@@ -6,18 +6,21 @@ import Training from "./componentes/Training"
 import Projects from "./componentes/Projects"
 // import Contact from "./componentes/Contact"
 import Footer from "./componentes/Footer"
+import styles from "./App.module.css"
 
 function App() {
 
   return (
     <>
       <Header />
-      <About />
-      <Skills />
-      <Hobbies />
-      <Training />
-      <Projects />
-      {/*<Contact /> */}
+      <div className={styles.container} >
+        <About />
+        <Skills />
+        <Hobbies />
+        <Training />
+        <Projects />
+        {/*<Contact /> */}
+      </div >
       <Footer />
     </>
   )

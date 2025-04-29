@@ -1,11 +1,11 @@
 .hobbies__item {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   width: 150px;
   height: 150px;
   border-radius: 15px;
-  background-color: blue;
+  background-color: var(--cards);
 }

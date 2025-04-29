@@ -1,13 +1,13 @@
 .projects__list__element {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   width: 150px;
   height: 150px;
   border-radius: 15px;
-  background-color: blue;
+  background-color: var(--cards);
 }
 
 .projects__list__element p {
@@ -20,8 +20,12 @@
   align-items: center;
   text-decoration: none;
   color: white;
-  background-color: violet;
+  background-color: var(--buttons);
   width: 100px;
   height: 25px;
   border-radius: 5px;
+}
+
+.projects__list__element a:hover {
+  background-color: var(--background__color__secundary);
 }
